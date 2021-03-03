@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>WEB - Vanilla JS</title>
-<meta charset="utf-8">
-</head>
-<body>
-  <h1><a href="index.html">Road Map</a></h1>
-<ol>
-  <li><a href="1.html">HTML, CSS</a></li>
-  <li><a href="2.html">Vanilla JS</a></li>
-  <li><a href="3.html">NodeJS</a></li>
-</ol>
-<h2>바닐라JS</h2>
-<p>
-  Vanilla JS는 자바스크립트 프레임워크로 다른 프레임워크나 jQuery보다도 압도적으로 빠르고 웹표준을 잘 지키는 웹브라우저들에 대해서는 크로스 브라우징이 잘 되는 특성이 있다.
-<br>페이스북, 구글, 유튜브 등등 유명한 해외 사이트에서 사용되었으며, 다른 플랫폼보다도 오래되었음에도 불구하고 꾸준히 업데이트 되어 온 프레임워크이다.
-<br>용량도 매우 가벼워서 압축을 하는 경우 압축을 하지 않은 경우보다 용량이 더 나가는 역설적인 무게를 자랑한다.
-</p>
-</body>
+  <head>
+    <title>WEB - Vanilla JS</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="colors.js"></script>
+  </head>
+  <body>
+    <input type="button" value="night" onclick="
+    nightDayHandler(this);
+    ">
+    <h1><a href="index.html">Road Map</a></h1>
+    <div id="grid">
+    <ol>
+      <li><a href="1.html" class="saw">HTML, CSS</a></li>
+      <li><a href="2.html" class="saw">Vanilla JS</a></li>
+      <li><a href="3.html">NodeJS</a></li>
+    </ol>
+    <div id="article">
+    <h2>바닐라JS</h2>
+    <p>
+      Vanilla JS는 자바스크립트 프레임워크로 다른 프레임워크나 jQuery보다도 압도적으로 빠르고 웹표준을 잘 지키는 웹브라우저들에 대해서는 크로스 브라우징이 잘 되는 특성이 있다.
+      <br>페이스북, 구글, 유튜브 등등 유명한 해외 사이트에서 사용되었으며, 다른 플랫폼보다도 오래되었음에도 불구하고 꾸준히 업데이트 되어 온 프레임워크이다.
+      <br>용량도 매우 가벼워서 압축을 하는 경우 압축을 하지 않은 경우보다 용량이 더 나가는 역설적인 무게를 자랑한다.
+    </p>
+    </div>
+  </body>
 </html>
